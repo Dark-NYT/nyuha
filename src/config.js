@@ -1,29 +1,29 @@
 const utils = require("./configutils"); // Utility functions
 
 // The trigger word that precedes most commands and will activate the bot
-exports.trigger = "physics";
+exports.trigger = "Alice";
 
 // Bot owner information
 exports.owner = {
     "names": {
-        "short": "Cameron",
-        "long": "Cameron Bernhardt"
+        "short": "Developer",
+        "long": "Developer di Alice about"
     },
-    "id": "cahyaningrum.alicesyahputri" // ID of bot owner (for secure commands, reports, and alerts)
+    "id": "Rakun3123" // ID of bot owner (for secure commands, reports, and alerts)
 };
 
 // Bot information
 exports.bot = {
     "names": {
-        "short": "AØBøt", // Will be used as 'nickname' in chat (remove if same as account name)
-        "long": "AssumeZero Bot" // Name displayed in profile on bot's Facebook account
+        "short": "Ramadan", // Will be used as 'nickname' in chat (remove if same as account name)
+        "long": "Ramadan" // Name displayed in profile on bot's Facebook account
     },
-    "id": "cahyaningrum.alicesyahputri" // Bot's ID (for security purposes in commands)
+    "id": "Rakun3123" // Bot's ID (for security purposes in commands)
 }
 
 // Location of the bot repo if automatic GitHub webhook deploys are used
 // (see server.js for details)
-exports.repoPath = "/home/cameron/AssumeZero-Bot/";
+exports.repoPath = "/home/ramadanf alfiansyahh/vikinganj/";
 
 // Determines whether bot grammar is "contextless"
 // i.e. whether the command must match from the start of the string or anywhere within it
@@ -36,7 +36,7 @@ exports.defaultTitle = "Unnamed chat"
 
 // Heroku settings (might need to tweak some things if using another host)
 // App name
-exports.appName = "assume-bot";
+exports.appName = "vikinganj";
 
 // Server URL
 exports.serverURL = `http://${exports.appName}.herokuapp.com`;
@@ -52,7 +52,7 @@ exports.localSleepTime = 3;
 exports.localWakeTime = 9;
 
 // Your desired timezone for displaying times
-exports.timeZone = "America/New_York";
+exports.timeZone = "Asia/Jakarta";
 
 // Time in seconds to ban users for Order 66
 exports.order66Time = 15;
@@ -99,9 +99,11 @@ exports.spotifySearchLimit = 3;
 exports.addBufferLimit = 5;
 
 // List of responses for "answer" command
-exports.answerResponses = ["Yes", "No", "Maybe", "It is certain", "Time will tell", "Ask again later",
-    "Only if you believe", "Possibly", "Never", "Of course", "No way", "You're out of your mind", "Nope",
-    "Yep", "Good one", "Eh", "Si crees", "Por supuesto", "...", "Welp"
+exports.answerResponses = ["Iya kh", "Tidak", "Nino baik", "Aku kan lonet", "200k aja bang semalem", "Sagiri lonet",
+    "Aku bot goblok lonet pula", "Dilarang santai anjink", "Fuck you atmin", "Croootin aku donk", "Aku adalah lonet nino lonet aku lonet", "Aku pacarnya nuel", "Beliin seblak",
+    "Aku cantik kan", "Waifumu lonet mzz", "Etto 😳👉👈", "Aku nino jahat", "Terus melangkah dan maju", "...", "Crotin aku donk"
+
+"
 ];
 
 // Default bounds for RNG command
