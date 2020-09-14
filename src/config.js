@@ -15,10 +15,10 @@ exports.owner = {
 // Bot information
 exports.bot = {
     "names": {
-        "short": "Ramadan", // Will be used as 'nickname' in chat (remove if same as account name)
-        "long": "Ramadan" // Name displayed in profile on bot's Facebook account
+        "short": "Kontolasw", // Will be used as 'nickname' in chat (remove if same as account name)
+        "long": "Kontolasw Mmk Seigheil" // Name displayed in profile on bot's Facebook account
     },
-    "id": "Rakun3123" // Bot's ID (for security purposes in commands)
+    "id": "100055107169127" // Bot's ID (for security purposes in commands)
 }
 
 // Location of the bot repo if automatic GitHub webhook deploys are used
